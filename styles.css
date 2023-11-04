@@ -1,0 +1,113 @@
+/* Reset some default styles */
+body, html, h1, h2, p, div, iframe, header, main, section, input, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  /* Set up a background color and font for the entire page */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #ff0000; /* Red background color */
+    color: #fff; /* White text color */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style the logo */
+  .logo {
+    font-size: 24px;
+  }
+  
+  /* Style the search bar */
+  .search-bar {
+    display: flex;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #333; /* Dark gray background color */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Main content area */
+  main {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Video player section */
+  .video-player {
+    width: 70%; /* Adjust the width as needed */
+  }
+  
+  iframe {
+    width: 100%;
+    height: 515px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Related videos section */
+  .related-videos {
+    width: 28%; /* Adjust the width as needed */
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .video-card {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .video-card img {
+    max-width: 100px;
+    margin-right: 10px;
+  }
+  
+  /* Add more styling for video cards as needed */
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    main {
+      flex-direction: column;
+    }
+  
+    .video-player {
+      width: 100%;
+    }
+  
+    .related-videos {
+      width: 100%;
+    }
+  }
+  
